@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyRestController {
 	@RequestMapping(method=RequestMethod.GET)
 	public String getMessage() {
-		return "Hello from REST API";
+		return "Hello from REST API..";
 	}
 
 }
